@@ -1,35 +1,46 @@
+form {
+    border: 1px solid black;
+    max-width: 300px;
+    border-radius: 6px;
+    padding: 15px 20px;
+
+}
+
 * {
     font-family: sans-serif;
 }
 
 .form-fieldset_1 {
-    padding: 0px 0px 20px 20px;
-    margin: none;
-    width: 300px;
-    border-radius: 20px;
-    border: 1px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.form-fieldset_1 legend {
+    font-weight: bold;
+    padding: 0 0 5px 0;
 }
 
 .form-fieldset_1 input,
 .form-fieldset_1 textarea {
-    width: 200px;
-    margin-top: 3px;
+    width: 210px;
+    margin-top: 5px;
 }
 
 textarea {
-    resize: vertical;
     max-height: 150px;
     min-height: 20px;
+    resize: vertical;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
-    
 }
 
 button {
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .form-fieldset_2 {
@@ -37,10 +48,10 @@ button {
     padding: 0;
     margin: 5px 0;
     display: flex;
+    gap: 5px;
 }
 
-input[ type="checkbox"] {
+input[type="checkbox"] {
     width: 14px;
     height: 14px;
 }
-
