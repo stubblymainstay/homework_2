@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+}
+
+.form-fieldset_1 {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.form-fieldset_1 input,
+.form-fieldset_1 textarea {
+    width: 200px;
+    margin-top: 3px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.form-fieldset_2 {
+    border: none;
+    padding: 0;
+    margin: 5px 0;
+    display: flex;
+}
+
+input[ type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
+
