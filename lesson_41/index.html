@@ -9,37 +9,41 @@
 <body>
     <form class="form">
         <fieldset class="form-fieldset_1">
-            <h4>Ваши личные данные</h2>
-            <label> Ваше имя <br>
-                <input 
+            <legend>Ваши личные данные</legend>
+            <label for="text"> Ваше имя <br>
+                <input id="text"
                 type="text" 
                 required 
                 placeholder="Имя">
             </label>
-            <label> Ваш возраст <br>
-                <input type="number" 
+            <label for="number"> Ваш возраст <br>
+                <input 
+                id="number" 
+                type="number" 
                 required
                 placeholder="Возраст">
             </label>
-            <label> Ваш номер телефона <br>
-                <input type="tel" 
+            <label for="tel"> Ваш номер телефона <br>
+                <input id="tel" 
+                type="tel"
                 required
                 placeholder="Номер телефона">
             </label>
-            <label> Ваша почта <br>
-                <input type="email" 
+            <label for="email"> Ваша почта <br>
+                <input id="email" 
+                type="email" 
                 required
                 placeholder="Почта">
             </label>
-            <label> Сообщение <br>
-                <textarea placeholder="Ваше сообщение"></textarea>
+            <label for="message"> Сообщение <br>
+                <textarea id="message" placeholder="Ваше сообщение"></textarea>
             </label>
-            <fieldset class="form-fieldset_2">
-                <input  type="checkbox" id="check" required>
-                <label for="check">я принимаю правила</label>
-            </fieldset>
-            <button>Отправить</button>
         </fieldset>
+        <fieldset class="form-fieldset_2">
+            <input type="checkbox" id="check" required>
+            <label  >я принимаю правила</label> 
+        </fieldset>
+        <button>Отправить</button>
     </form>
 </body>
 </html>
